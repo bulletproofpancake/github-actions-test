@@ -31,6 +31,6 @@ jobs:
           targetPlatform: StandaloneWindows64
 
       - name: Run InspectCode
-        uses: muno92/resharper_inspectcode@latest
+        uses: muno92/resharper_inspectcode@1.5.0
         with:
           solutionPath: ./workspace.sln
